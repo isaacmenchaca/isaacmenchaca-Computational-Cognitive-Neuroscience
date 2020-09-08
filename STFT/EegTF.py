@@ -190,6 +190,6 @@ def stft4EegChannel(fileName: str, channel: str, timeStep: int,
         
         plt.show()
 
-    return f, t, Zxx
+    return tf_frequency, tf_time, tf_log_power
 
  
